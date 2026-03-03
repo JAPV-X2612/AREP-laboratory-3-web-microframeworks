@@ -13,7 +13,6 @@ import java.io.*;
  */
 public class HttpServer {
 
-    /** Port on which the server listens for incoming connections. */
     private static final int PORT = 35000;
 
     /**
@@ -70,8 +69,7 @@ public class HttpServer {
      */
     private static void handleRequest(Socket clientSocket) throws IOException, URISyntaxException {
         PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
-        BufferedReader in =
-                new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+        BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
 
         boolean firstLine = true;
         String inputLine;
@@ -119,9 +117,18 @@ public class HttpServer {
      * @return The full HTTP response string.
      */
     private static String buildResponse() {
-        return "HTTP/1.1 200 OK\r\n" + "Content-Type: text/html\r\n" + "\r\n" + "<!DOCTYPE html>"
-                + "<html>" + "<head>" + "<meta charset=\"UTF-8\">" + "<title>My Web Server</title>"
-                + "</head>" + "<body>" + "<h1>Welcome to My Web Server</h1>" + "</body>"
-                + "</html>";
+    return "HTTP/1.1 200 OK\r\n"
+            + "Content-Type: text/html\r\n"
+            + "\r\n"
+            + "<!DOCTYPE html>"
+            + "<html>"
+            + "<head>"
+            + "<meta charset=\"UTF-8\">"
+            + "<title>My Web Server</title>"
+            + "</head>"
+            + "<body>"
+            + "<h1>Welcome to My Web Server</h1>"
+            + "</body>"
+            + "</html>";
     }
 }
