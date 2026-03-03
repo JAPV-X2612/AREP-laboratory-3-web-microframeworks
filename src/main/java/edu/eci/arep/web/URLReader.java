@@ -4,8 +4,8 @@ import java.io.*;
 import java.net.*;
 
 /**
- * Reads and prints the HTML content of a remote web page using
- * the java.net.URL class and a buffered character stream.
+ * Reads and prints the HTML content of a remote web page using the java.net.URL class and a
+ * buffered character stream.
  *
  * @author Jesús Pinzón
  * @version 1.0
@@ -14,8 +14,8 @@ import java.net.*;
 public class URLReader {
 
     /**
-     * Opens an HTTP connection to Google's homepage, reads the response
-     * body line by line, and prints each line to standard output.
+     * Opens an HTTP connection to Google's homepage, reads the response body line by line, and
+     * prints each line to standard output.
      *
      * @param args Command-line arguments (not used)
      * @throws IOException If the URL is malformed or the connection cannot be established

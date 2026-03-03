@@ -4,14 +4,14 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 /**
- * Demonstrates reading metadata from a URL object using the eight
- * standard accessor methods provided by the java.net.URL class.
+ * Demonstrates reading metadata from a URL object using the eight standard accessor methods
+ * provided by the java.net.URL class.
  */
 public class URLInfo {
 
     /**
-     * Application entry point. Creates a URL object and prints
-     * the values returned by each of the eight URL accessor methods.
+     * Application entry point. Creates a URL object and prints the values returned by each of the
+     * eight URL accessor methods.
      *
      * @param args Command-line arguments (not used).
      */
