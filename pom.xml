@@ -16,7 +16,7 @@
 
   <dependencies>
 
-    <!-- JUnit 5 - Unit Testing -->
+    <!-- JUnit 5 -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
@@ -31,21 +31,21 @@
       <scope>test</scope>
     </dependency>
 
-    <!-- SLF4J - Logging Facade -->
+    <!-- SLF4J -->
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
       <version>2.0.12</version>
     </dependency>
 
-    <!-- Logback - Logging Implementation -->
+    <!-- Logback -->
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>
       <version>1.5.3</version>
     </dependency>
 
-    <!-- Gson - JSON Serialization/Deserialization -->
+    <!-- Gson -->
     <dependency>
       <groupId>com.google.code.gson</groupId>
       <artifactId>gson</artifactId>
@@ -68,21 +68,21 @@
         </configuration>
       </plugin>
 
-      <!-- Maven Surefire Plugin - JUnit 5 Support -->
+      <!-- Maven Surefire Plugin -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.2.5</version>
       </plugin>
 
-      <!-- Maven Exec Plugin - Run main classes -->
+      <!-- Maven Exec Plugin -->
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
         <version>3.2.0</version>
       </plugin>
 
-      <!-- Maven JAR Plugin - Executable JAR -->
+      <!-- Maven JAR Plugin -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
