@@ -32,7 +32,7 @@ public class EchoClient {
             BufferedReader stdIn    = new BufferedReader(new InputStreamReader(System.in))
         ) {
             System.out.println("Connected to echo server at " + HOST + ":" + PORT);
-            System.out.println("Type a message and press Enter. Close input (Ctrl+D) to quit.");
+            System.out.println("Type a message and press Enter. Close input (Ctrl+C) to quit.");
 
             String userInput;
             while ((userInput = stdIn.readLine()) != null) {
