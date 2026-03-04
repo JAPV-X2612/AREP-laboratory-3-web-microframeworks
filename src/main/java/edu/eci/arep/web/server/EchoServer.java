@@ -1,4 +1,4 @@
-package edu.eci.arep.web;
+package edu.eci.arep.web.server;
 
 import java.io.*;
 import java.net.*;
