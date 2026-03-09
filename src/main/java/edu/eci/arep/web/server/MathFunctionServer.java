@@ -16,7 +16,7 @@ import java.util.Map;
  */
 public class MathFunctionServer {
 
-    private static final int PORT = 35001;
+    private static final int PORT = 35000;
     private static final String FUN_PREFIX = "fun:";
     private static final String EXIT_COMMAND = "Bye.";
 
