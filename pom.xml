@@ -55,8 +55,14 @@
   </dependencies>
 
   <build>
-    <plugins>
+    <resources>
+        <resource>
+            <directory>src/main/resources</directory>
+            <targetPath>.</targetPath>
+        </resource>
+    </resources>
 
+    <plugins>
       <!-- Maven Compiler Plugin -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -95,7 +101,6 @@
           </archive>
         </configuration>
       </plugin>
-
     </plugins>
   </build>
 
