@@ -202,8 +202,8 @@ MicroSpring.start();
 
 ```bash
 # Clone the repository
-git clone https://github.com/JAPV-X2612/AREP-Lab-01-Java-Networks-Fundamentals.git
-cd AREP-Lab-01-Java-Networks-Fundamentals
+git clone https://github.com/JAPV-X2612/AREP-laboratory-3-web-microframeworks
+cd AREP-laboratory-3-web-microframeworks
 
 # Compile the project
 mvn compile
@@ -343,109 +343,109 @@ Then open:
 
 ### 2. URL Info — 8 Accessor Methods
 
-<img src="assets/images/02-url-info-methods.png" alt="URL Info Methods" width="70%">
+<img src="assets/images/02-url-info-methods.png" alt="URL Info Methods">
 
 ---
 
 ### 3. URL Browser — HTML Saved to File
 
-<img src="assets/images/03-url-browser-html-saved.png" alt="URL Browser HTML Saved" width="70%">
+<img src="assets/images/03-url-browser-html-saved.png" alt="URL Browser HTML Saved">
 
 ---
 
 ### 4. URL Browser — Result Opened in Browser
 
-<img src="assets/images/04-url-browser-result-in-browser.png" alt="URL Browser Result in Browser" width="70%">
+<img src="assets/images/04-url-browser-result-in-browser.png" alt="URL Browser Result in Browser" width="80%">
 
 ---
 
 ### 5. Square Server — Computing $f(x) = x^2$
 
-<img src="assets/images/05-square-server-responses.png" alt="Square Server Responses" width="70%">
+<img src="assets/images/05-square-server-responses.png" alt="Square Server Responses">
 
 ---
 
 ### 6. Math Function Server — Trigonometric Functions
 
-<img src="assets/images/06-math-function-server-trig.png" alt="Math Function Server Trig" width="70%">
+<img src="assets/images/06-math-function-server-trig.png" alt="Math Function Server Trig">
 
 ---
 
 ### 7. HTTP Server — Serving `index.html`
 
-<img src="assets/images/07-http-server-index-html.png" alt="HTTP Server Index HTML" width="70%">
+<img src="assets/images/07-http-server-index-html.png" alt="HTTP Server Index HTML" width="80%">
 
 ---
 
 ### 8. HTTP Server — Serving an Image
 
-<img src="assets/images/08-http-server-image.png" alt="HTTP Server Image" width="70%">
+<img src="assets/images/08-http-server-image.png" alt="HTTP Server Image" width="80%">
 
 ---
 
 ### 9. HTTP Server — 404 Not Found
 
-<img src="assets/images/09-http-server-404.png" alt="HTTP Server 404" width="70%">
+<img src="assets/images/09-http-server-404.png" alt="HTTP Server 404" width="80%">
 
 ---
 
 ### 10. Datagram Time Client — Live Updates
 
-<img src="assets/images/10-datagram-time-client-running.png" alt="Datagram Time Client Running" width="70%">
+<img src="assets/images/10-datagram-time-client-running.png" alt="Datagram Time Client Running">
 
 ---
 
 ### 11. Datagram Client — Retaining Last Known Time (Server Offline)
 
-<img src="assets/images/11-datagram-server-offline-retention.png" alt="Datagram Server Offline Retention" width="70%">
+<img src="assets/images/11-datagram-server-offline-retention.png" alt="Datagram Server Offline Retention">
 
 ---
 
 ### 12. Datagram Client — Reconnection After Server Restart
 
-<img src="assets/images/12-datagram-server-reconnection.png" alt="Datagram Server Reconnection" width="70%">
+<img src="assets/images/12-datagram-server-reconnection.png" alt="Datagram Server Reconnection">
 
 ---
 
 ### 13. Echo Server & Client — Full Session
 
-<img src="assets/images/13-echo-server-client-session.png" alt="Echo Server Client Session" width="70%">
+<img src="assets/images/13-echo-server-client-session.png" alt="Echo Server Client Session">
 
 ---
 
 ### 14. RMI Echo Service — Remote Method Invocation
 
-<img src="assets/images/14-rmi-echo-service-response.png" alt="RMI Echo Service Response" width="70%">
+<img src="assets/images/14-rmi-echo-service-response.png" alt="RMI Echo Service Response">
 
 ---
 
 ### 15. RMI Chat — Bidirectional Communication
 
-<img src="assets/images/15-chat-node-bidirectional.png" alt="Chat Node Bidirectional" width="70%">
+<img src="assets/images/15-chat-node-bidirectional.png" alt="Chat Node Bidirectional">
 
 ---
 
 ### 16. MicroSpring — Serving `index.html`
 
-<img src="assets/images/16-micro-spring-index-html.png" alt="MicroSpring Index HTML" width="70%">
+<img src="assets/images/16-micro-spring-index-html.png" alt="MicroSpring Index HTML" width="80%">
 
 ---
 
 ### 17. MicroSpring — `/app/hello?name=Pedro`
 
-<img src="assets/images/17-micro-spring-hello-endpoint.png" alt="MicroSpring Hello Endpoint" width="70%">
+<img src="assets/images/17-micro-spring-hello-endpoint.png" alt="MicroSpring Hello Endpoint" width="80%">
 
 ---
 
 ### 18. MicroSpring — `/app/pi`
 
-<img src="assets/images/18-micro-spring-pi-endpoint.png" alt="MicroSpring Pi Endpoint" width="70%">
+<img src="assets/images/18-micro-spring-pi-endpoint.png" alt="MicroSpring Pi Endpoint" width="78%">
 
 ---
 
 ### 19. MicroSpring — 404 Not Found
 
-<img src="assets/images/19-micro-spring-404.png" alt="MicroSpring 404" width="70%">
+<img src="assets/images/19-micro-spring-404.png" alt="MicroSpring 404" width="80%">
 
 ---
 
